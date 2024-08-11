@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+#gameContainer {
+  margin-top: 50px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  padding: 5px;
+  width: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+#diceContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.dice {
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+}
+
+#dice1 {
+  background-image: url("dice1.jpg");
+}
+
+#dice2 {
+  background-image: url("dice2.jpg");
+}
+
+#dice3 {
+  background-image: url("dice3.jpg");
+}
+
+#dice4 {
+  background-image: url("dice4.jpg");
+}
+
+#dice5 {
+  background-image: url("dice5.jpg");
+}
+
+#dice6 {
+  background-image: url("dice6.jpg");
+}
+
+#diceResult {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#totalScore {
+  margin-top: 10px;
+  font-size: 24px;
+}

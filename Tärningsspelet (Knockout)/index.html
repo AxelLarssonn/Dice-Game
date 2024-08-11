@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Knockout Dice Game</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Knockout Dice Game</h1>
+  <div id="gameContainer">
+    <h2>Choose your knockout number:</h2>
+    <input type="number" id="knockoutInput" min="6" max="9" step="1">
+    <button id="startButton">Start Game</button>
+    <div id="diceContainer">
+      <div id="dice1" class="dice"></div>
+      <div id="dice2" class="dice"></div>
+    </div>
+    <div id="diceResult"></div>
+    <div id="totalScore"></div>
+    <button id="rollButton" disabled>Roll Dice</button>
+    <button id="resetButton" disabled>Reset Game</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
